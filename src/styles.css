@@ -1,0 +1,35 @@
+html, body, #root, .App {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn-submit {
+    color: aliceblue;
+    background-color: #2196f3;
+    margin-left: 5px;
+}
+
+.btn-delete {
+    color: aliceblue;
+    background-color: #f44336;
+    margin-top: 5px;
+}
+
+.lista-tareas{
+    width: 100%;
+}
